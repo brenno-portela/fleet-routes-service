@@ -1,0 +1,18 @@
+# Ignore bundler config and installed gems
+/.bundle/
+/vendor/bundle/
+
+# Ignore log and temp files
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Environment variables
+.env
+.env*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
