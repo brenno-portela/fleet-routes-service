@@ -11,6 +11,9 @@ $LOAD_PATH.unshift File.expand_path('../app/models', __dir__)
 
 require 'routes/haversine_distance'
 require 'routes/telemetry_calculator'
+require 'routes/errors'
+require 'routes/update_assignment'
+require 'routes/delete_route'
 
 require 'application_record'
 require 'route'
