@@ -14,6 +14,8 @@ require 'routes/telemetry_calculator'
 require 'routes/errors'
 require 'routes/update_assignment'
 require 'routes/delete_route'
+require 'routes/report_builder'
+require 'routes/excel_exporter'
 
 require 'application_record'
 require 'route'
